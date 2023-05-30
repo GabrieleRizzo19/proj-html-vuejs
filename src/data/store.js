@@ -1,7 +1,7 @@
 import { reactive } from "vue";
 
 export const store = reactive({
-    headerLink: [
+    headerLink: {
         home:{
             title: "HOME",
             href: "#"
@@ -26,5 +26,5 @@ export const store = reactive({
             title: "ELEMENTS",
             href: "#"
         }
-    ]
+    }
 })
