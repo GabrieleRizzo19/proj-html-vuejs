@@ -1,0 +1,43 @@
+<script>
+
+  // Components import 
+  import PageHeader from './components/PageHeader.vue';
+  import PageMain from './components/PageMain.vue';
+  import PageFooter from './components/PageFooter.vue';
+
+
+  //Data import
+  import { store } from './data/store';
+
+
+  // Export default
+  export default{
+    components: { 
+      PageHeader,
+      PageMain, 
+      PageFooter 
+    },
+    data(){
+      return{
+        store
+      }
+    }
+
+}
+
+</script>
+
+
+<template>
+
+  <PageHeader :prova="store.datoDiProva" />
+  <PageMain />
+  <PageFooter />
+
+</template>
+
+<style lang="scss">
+
+
+
+</style>
