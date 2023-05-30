@@ -30,7 +30,7 @@
 
 <template>
 
-  <PageHeader :prova="store.datoDiProva" />
+  <PageHeader :headerLink="store.headerLink" />
   <PageMain />
   <PageFooter />
 
