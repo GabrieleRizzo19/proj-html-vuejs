@@ -13,9 +13,9 @@
 
     <header>
 
-        <div class="header-wrapper container d-flex justify-content-between align-items-center">
+        <div class="header-wrapper container d-flex justify-content-between align-items-center position-absolute">
 
-            <img class="h-50" src="../assets/img/1. header/logo-light.png" alt="LOGO HEADER">
+            <img class="h-50 opacity-100" src="../assets/img/1-header/logo-light.png" alt="LOGO HEADER">
 
             <div>
 
@@ -57,6 +57,9 @@
         height: 100px;
         color: white;
         background-color: transparent;
+        z-index: 10;
+        left: 50%;
+        transform: translate(-50%);
 
         a{
             text-decoration: none;
