@@ -1,8 +1,4 @@
 import { createApp } from 'vue'
-// IMPORT BOOTSTRAP
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
-
 import App from './App.vue'
 
 // IMPORT FONTAWESOME CORE
@@ -22,9 +18,6 @@ library.add(faBars)
 
 
 
-
-
-
 createApp(App)
-.component('font-awesome-icon', FontAwesomeIcon)
+.component('font-awesome-icon', FontAwesomeIcon) //ADD FONTAWESOME ICON COMPONENT TO APP
 .mount('#app')
