@@ -13,12 +13,22 @@
 
 <template>
 
-    <div>
-        <h1>MAIN</h1>
-    </div>
+    <main>
+        <div class="main-wrapper">
+            <Jumbotron />
+        </div>
+    </main>
 
 </template>
 
 <style lang="scss" scoped>
+
+    @use '../styles/partials/_mixins' as mixins;
+    @use '../styles/partials/_variables' as var;
+
+    .main-wrapper{
+
+    }
+
 
 </style>

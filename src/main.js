@@ -18,6 +18,13 @@ library.add(faBars)
 
 
 
+// SWIPER
+import 'swiper/css';
+
+import 'swiper/css/pagination';
+
+
+
 createApp(App)
 .component('font-awesome-icon', FontAwesomeIcon) //ADD FONTAWESOME ICON COMPONENT TO APP
 .mount('#app')

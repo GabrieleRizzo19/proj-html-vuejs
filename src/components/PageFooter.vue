@@ -16,4 +16,8 @@
 
 <style lang="scss" scoped>
 
+    div{
+        background-color: yellow;
+        color: red;
+    }
 </style>

@@ -19,7 +19,7 @@
             <nav>
                 <ul>
                     <li v-for="link in headerLink">
-                        <a href="#">{{ link.title }}</a>
+                        <a :href="link.href">{{ link.title }}</a>
                     </li>
                     <li>
                         <a href="#">

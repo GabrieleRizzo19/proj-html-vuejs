@@ -26,5 +26,23 @@ export const store = reactive({
             title: "ELEMENTS",
             href: "#"
         }
-    }
+    },
+    jumbotronSlides: [
+        {
+            title: "Contemporary Ideas",
+            text : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut lacinia lorem. Sed ut imperdiet dolor, at hendrerit tellus. Maecenas.",
+            buttonText: "REGISTER NOW"
+        },
+        {
+            title: "TITOLONE 2",
+            text : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut lacinia lorem. Sed ut imperdiet dolor, at hendrerit tellus. Maecenas.",
+            buttonText: "BOTTONE 2"
+        },
+        {
+            title: "TITOLONE 3",
+            text : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut lacinia lorem. Sed ut imperdiet dolor, at hendrerit tellus. Maecenas.",
+            buttonText: "BOTTONE 3"
+        }
+    ],
+
 })
