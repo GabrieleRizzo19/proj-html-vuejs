@@ -4,6 +4,7 @@
     import CategoryCards from './CategoryCards.vue';
     import InHomeTutoringSection from './InHomeTutoringSection.vue';
     import EmpoweringChildrenSection from './EmpoweringChildrenSection.vue';
+    import TestimonialSlider from './TestimonialSlider.vue';
 
     export default{
         name: "PageMain",
@@ -11,7 +12,8 @@
             Jumbotron,
             CategoryCards,
             InHomeTutoringSection,
-            EmpoweringChildrenSection
+            EmpoweringChildrenSection,
+            TestimonialSlider
         }
     }
 
@@ -29,6 +31,8 @@
             <InHomeTutoringSection />
 
             <EmpoweringChildrenSection />
+
+            <TestimonialSlider />
         </div>
     </main>
 

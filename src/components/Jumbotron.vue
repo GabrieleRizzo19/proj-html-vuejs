@@ -6,13 +6,6 @@
 
     // Import Swiper Vue.js components
     import { Swiper, SwiperSlide } from 'swiper/vue';
-
-    // Import Swiper styles
-
-
-
-
-    // import required modules
     import { Pagination } from 'swiper';
 
     export default {
@@ -44,22 +37,22 @@
             <div class="background-image pos-absolute">
         </div>
 
-            <swiper
-                :spaceBetween="30"
-                :pagination="{
-                    clickable: true,
-                }"
-                :modules="modules"
-                class="mySwiper"
-            >
-                <swiper-slide v-for="slide in store.jumbotronSlides">
-                    <div class="jumbotron-content container">
-                        <h1>{{ slide.title }}</h1>
-                        <p>{{ slide.text }}</p>
-                        <button>{{ slide.buttonText}}</button>
-                    </div>
-                </swiper-slide>
-            </swiper>
+        <swiper
+            :spaceBetween="30"
+            :pagination="{
+                clickable: true,
+            }"
+            :modules="modules"
+            class="mySwiper"
+        >
+            <swiper-slide v-for="slide in store.jumbotronSlides">
+                <div class="jumbotron-content container">
+                    <h1>{{ slide.title }}</h1>
+                    <p>{{ slide.text }}</p>
+                    <button>{{ slide.buttonText}}</button>
+                </div>
+            </swiper-slide>
+        </swiper>
 
         </div>
         

@@ -67,6 +67,7 @@
 
         .text-section{
             width: 50%;
+            padding: 0 1.5rem;
 
             h2{
                 font-family: 'Merriweather', 'Serif';

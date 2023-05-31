@@ -22,8 +22,8 @@ library.add(faEarthEurope)
 
 // SWIPER
 import 'swiper/css';
-
 import 'swiper/css/pagination';
+
 
 
 
