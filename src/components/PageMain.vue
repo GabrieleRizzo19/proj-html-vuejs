@@ -1,15 +1,20 @@
 <script>
 
+    import Jumbotron from './Jumbotron.vue';
+
     export default{
-        name: "PageMain"
+        name: "PageMain",
+        components: {
+        Jumbotron
+        }
     }
 
 </script>
 
 <template>
 
-    <div>
-        <h1>MAIN</h1>
+    <div class="main-wrapper">
+        <Jumbotron />
     </div>
 
 </template>

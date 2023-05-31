@@ -2,8 +2,6 @@ import { createApp } from 'vue'
 // IMPORT BOOTSTRAP
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
-// IMPORT MY STYLE
-import './styles/general.scss'
 
 import App from './App.vue'
 

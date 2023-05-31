@@ -13,7 +13,7 @@
 
     <header>
 
-        <div class="container header-wrapper d-flex justify-content-between align-items-center">
+        <div class="header-wrapper container d-flex justify-content-between align-items-center">
 
             <img class="h-50" src="../assets/img/1. header/logo-light.png" alt="LOGO HEADER">
 
@@ -29,8 +29,9 @@
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a class=" position-relative" href="">
                             <font-awesome-icon :icon="['fas', 'bag-shopping']" />
+                            <span class="cart-badge position-absolute d-inline-block">0</span>
                         </a>
                     </li><li>
                         <a href="">
@@ -50,6 +51,8 @@
 
 <style lang="scss" scoped>
 
+    @use '../styles/partials/variables' as var;
+
     .header-wrapper{
         height: 100px;
         color: white;
@@ -58,10 +61,28 @@
         a{
             text-decoration: none;
             color: inherit;
+            font-weight: bold;
 
             &:hover{
-                color: #40c4ff;
+                color: var.$my-primary;
+
+                .cart-badge{
+                    color: white;
+                }
             }
+        }
+
+        .cart-badge{
+            background-color: var.$my-primary;
+            height: 1rem;
+            width: 1rem;
+            line-height: 1rem;
+            font-size: 12px;
+            text-align: center;
+            border-radius: 50%;
+            right: -50%;
+            top: -50%;
+
         }
         
     }
