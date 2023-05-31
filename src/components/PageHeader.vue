@@ -70,8 +70,6 @@
                 gap: 1.5rem;
                 
                 a{
-                    text-decoration: none;
-                    color: inherit;
                     font-weight: 600;
 
                     .cart-badge{

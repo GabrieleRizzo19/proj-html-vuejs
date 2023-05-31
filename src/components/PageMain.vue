@@ -2,12 +2,16 @@
 
     import Jumbotron from './Jumbotron.vue';
     import CategoryCards from './CategoryCards.vue';
+    import InHomeTutoringSection from './InHomeTutoringSection.vue';
+    import EmpoweringChildrenSection from './EmpoweringChildrenSection.vue';
 
     export default{
         name: "PageMain",
         components: {
             Jumbotron,
-            CategoryCards
+            CategoryCards,
+            InHomeTutoringSection,
+            EmpoweringChildrenSection
         }
     }
 
@@ -21,6 +25,10 @@
             <Jumbotron />
 
             <CategoryCards />
+
+            <InHomeTutoringSection />
+
+            <EmpoweringChildrenSection />
         </div>
     </main>
 
