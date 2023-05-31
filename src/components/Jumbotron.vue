@@ -38,8 +38,10 @@
 
 <template>
 
-    <div class="jumbotron pos-relative">
-        <div class="background-image pos-absolute">
+    <div class="jumbotron">
+        <div class="jumbotron-wrapper pos-relative">
+
+            <div class="background-image pos-absolute">
         </div>
 
             <swiper
@@ -59,6 +61,9 @@
                 </swiper-slide>
             </swiper>
 
+        </div>
+        
+
     </div>
 
 </template>
@@ -71,13 +76,16 @@
     .jumbotron{
 
         height: 700px;
-        margin-top: -100px;
+        .jumbotron-wrapper{
+            height: 700px;
+            color: white;
+        }
         .background-image{
             height: 700px;
             width: 100%;
             background-image: url('../assets/img/2-jumbotron-slider-img/course-9-f-img.jpg');
             background-size: cover;
-            filter: opacity(50%);
+            filter: brightness(50%);
             top: 0;
             left: 0;
             z-index: -1;

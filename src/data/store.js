@@ -44,5 +44,31 @@ export const store = reactive({
             buttonText: "BOTTONE 3"
         }
     ],
+    cateogryCardsContent: [
+        {
+            icon: "fa-solid fa-earth-europe",
+            title: "Languages"
+        },
+        {
+            icon: "fa-solid fa-earth-europe",
+            title: "Software"
+        },
+        {
+            icon: "fa-solid fa-earth-europe",
+            title: "Business"
+        },
+        {
+            icon: "fa-solid fa-earth-europe",
+            title: "Chemistry"
+        },
+        {
+            icon: "fa-solid fa-earth-europe",
+            title: "Science"
+        },
+        {
+            icon: "fa-solid fa-earth-europe",
+            title: "DIY&Craft"
+        }
+    ]
 
 })

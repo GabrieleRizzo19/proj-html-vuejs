@@ -52,6 +52,12 @@
     .header-wrapper{
         height: 100px;
         @include mixins.flex(row, space-between, center);
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%);
+        z-index: 999;
+        color: white;
 
         #header-logo{
             height: 40%;

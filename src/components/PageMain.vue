@@ -1,11 +1,13 @@
 <script>
 
     import Jumbotron from './Jumbotron.vue';
+    import CategoryCards from './CategoryCards.vue';
 
     export default{
         name: "PageMain",
         components: {
-        Jumbotron
+            Jumbotron,
+            CategoryCards
         }
     }
 
@@ -15,7 +17,10 @@
 
     <main>
         <div class="main-wrapper">
+
             <Jumbotron />
+
+            <CategoryCards />
         </div>
     </main>
 
