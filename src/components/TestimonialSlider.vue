@@ -68,7 +68,6 @@
 
     .testimonial-slider{
         
-        height: 650px;
         background-image: url('../assets/img/6-testimonial-slider/h5-parallax-img-1.png');
         background-size: cover;
         text-align: center;
@@ -80,7 +79,7 @@
         .testimonial-slider-content{
 
             width: 100%;
-            padding: 10rem 0;
+            padding: 5rem 0;
             text-align: center;
             color: white;
 

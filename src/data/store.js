@@ -216,6 +216,48 @@ export const store = reactive({
             numberTag: "1",
             categoryTag: "BUSINESS2"
         },
+    ],
+    tablePlanData:[
+        {
+            name: "Standard",
+            icon: new URL('../assets/img/10-table-plan-icon/h5-custom-icon-7.png', import.meta.url).href,
+            price: "$12",
+            numberOfCourses: 2,
+            time: "15 Days",
+            webDesigning: true,
+            humanCenteredDesign: true,
+            basicMarketing: false,
+            pythonForEverybody: false,
+            androidDeveloper: false,
+            businessEnglish: false
+        },
+        {
+            name: "Professional",
+            icon: new URL('../assets/img/10-table-plan-icon/h5-custom-icon-8.png', import.meta.url).href,
+            price: "$59",
+            numberOfCourses: 4,
+            time: "30 Days",
+            webDesigning: true,
+            humanCenteredDesign: true,
+            basicMarketing: true,
+            pythonForEverybody: true,
+            androidDeveloper: false,
+            businessEnglish: false
+        },
+        {
+            name: "Advanced",
+            icon: new URL('../assets/img/10-table-plan-icon/h5-custom-icon-9.png', import.meta.url).href,
+            price: "$88",
+            numberOfCourses: 6,
+            time: "30 Days",
+            webDesigning: true,
+            humanCenteredDesign: true,
+            basicMarketing: true,
+            pythonForEverybody: true,
+            androidDeveloper: true,
+            businessEnglish: true
+        },
+
     ]
 
 })

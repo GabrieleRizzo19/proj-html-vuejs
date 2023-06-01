@@ -7,6 +7,7 @@
     import TestimonialSlider from './TestimonialSlider.vue';
     import LearningPossibilitesSection from './LearningPossibilitesSection.vue';
     import CoursesSection from './CoursesSection.vue';
+    import PricingPlans from './PricingPlans.vue';
 
     export default{
         name: "PageMain",
@@ -17,7 +18,8 @@
             EmpoweringChildrenSection,
             TestimonialSlider,
             LearningPossibilitesSection,
-            CoursesSection
+            CoursesSection,
+            PricingPlans
         }
     }
 
@@ -41,6 +43,8 @@
             <LearningPossibilitesSection />
 
             <CoursesSection />
+
+            <PricingPlans />
         </div>
     </main>
 

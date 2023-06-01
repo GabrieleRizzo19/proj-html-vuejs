@@ -38,7 +38,6 @@
 
         .text-section{
 
-            margin-bottom: 3rem;
 
             h2{
                 font-family: 'Merriweather', 'Serif';

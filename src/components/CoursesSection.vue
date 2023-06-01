@@ -81,8 +81,7 @@
 
     .courses-section{
 
-        padding: 4rem 0;
-        height: 1000px;
+        height: 900px;
         background-image: url('../assets/img/8-courses-background/page-background-img.png');
 
         .text-section{
