@@ -47,9 +47,9 @@
     @use '../styles/partials/_mixins' as mixins;
     @use '../styles/partials/_variables' as var;
 
-    .main-wrapper{
+    // .main-wrapper{
 
-    }
+    // }
 
 
 </style>
