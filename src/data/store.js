@@ -93,6 +93,7 @@ export const store = reactive({
     currentSlide: 0,
     learningSectionData: [
         {
+            indexTitle: "What We Do",
             title: "Learning Possibilities",
             text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem deleniti magni, voluptates eligendi iure saepe pariatur nostrum veritatis, laborum itaque cupiditate ad! Soluta esse, tempora beatae cum omnis itaque amet.",
             listData: [
@@ -104,6 +105,7 @@ export const store = reactive({
             img: new URL('../assets/img/7-learning-possibilities-section/h12-tabs-icon-1.png', import.meta.url).href
         },
         {
+            indexTitle: "Degree Programme",
             title: "Degree Programme",
             text: "PARTE 2 ipsum dolor sit amet consectetur adipisicing elit. Quidem deleniti magni, voluptates eligendi iure saepe pariatur nostrum veritatis, laborum itaque cupiditate ad! Soluta esse, tempora beatae cum omnis itaque amet.",
             listData: [
@@ -115,6 +117,7 @@ export const store = reactive({
             img: new URL('../assets/img/7-learning-possibilities-section/h12-tabs-icon-2.png', import.meta.url).href
         },
         {
+            indexTitle: "Career Achievements",
             title: "Career Achievements",
             text: "PARTE 3 ipsum dolor sit amet consectetur adipisicing elit. Quidem deleniti magni, voluptates eligendi iure saepe pariatur nostrum veritatis, laborum itaque cupiditate ad! Soluta esse, tempora beatae cum omnis itaque amet.",
             listData: [
@@ -125,6 +128,7 @@ export const store = reactive({
             img: new URL('../assets/img/7-learning-possibilities-section/h12-tabs-icon-3.png', import.meta.url).href
         },
         {
+            indexTitle: "Personal Management",
             title: "Personal Management",
             text: "PARTE 4 ipsum dolor sit amet consectetur adipisicing elit. Quidem deleniti magni, voluptates eligendi iure saepe pariatur nostrum veritatis, laborum itaque cupiditate ad! Soluta esse, tempora beatae cum omnis itaque amet.",
             listData: [
@@ -136,6 +140,7 @@ export const store = reactive({
             img: new URL('../assets/img/7-learning-possibilities-section/h12-tabs-icon-4.png', import.meta.url).href
         },
         {
+            indexTitle: "Steps to Success",
             title: "Steps to Success",
             text: "PARTE 5 ipsum dolor sit amet consectetur adipisicing elit. Quidem deleniti magni, voluptates eligendi iure saepe pariatur nostrum veritatis, laborum itaque cupiditate ad! Soluta esse, tempora beatae cum omnis itaque amet.",
             listData: [
@@ -146,6 +151,7 @@ export const store = reactive({
             img: new URL('../assets/img/7-learning-possibilities-section/h12-tabs-icon-5.png', import.meta.url).href
         },
         {
+            indexTitle: "Knowledge Transfer",
             title: "Knowledge Transfer",
             text: "PARTE 6 ipsum dolor sit amet consectetur adipisicing elit. Quidem deleniti magni, voluptates eligendi iure saepe pariatur nostrum veritatis, laborum itaque cupiditate ad! Soluta esse, tempora beatae cum omnis itaque amet.",
             listData: [

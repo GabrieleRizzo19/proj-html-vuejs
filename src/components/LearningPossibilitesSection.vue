@@ -20,7 +20,7 @@
         <div class="selectors-side">
 
             <div v-for="(selector, i) in store.learningSectionData" :class="`selector ${(i == store.currentSlide) ? 'selected' : ''}`" @click="store.currentSlide = i">
-                <span>{{ selector.title }}</span>
+                <span>{{ selector.indexTitle }}</span>
             </div>
 
 
