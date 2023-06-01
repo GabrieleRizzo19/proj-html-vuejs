@@ -6,6 +6,7 @@
     import EmpoweringChildrenSection from './EmpoweringChildrenSection.vue';
     import TestimonialSlider from './TestimonialSlider.vue';
     import LearningPossibilitesSection from './LearningPossibilitesSection.vue';
+    import CoursesSection from './CoursesSection.vue';
 
     export default{
         name: "PageMain",
@@ -15,7 +16,8 @@
             InHomeTutoringSection,
             EmpoweringChildrenSection,
             TestimonialSlider,
-            LearningPossibilitesSection
+            LearningPossibilitesSection,
+            CoursesSection
         }
     }
 
@@ -37,6 +39,8 @@
             <TestimonialSlider />
 
             <LearningPossibilitesSection />
+
+            <CoursesSection />
         </div>
     </main>
 

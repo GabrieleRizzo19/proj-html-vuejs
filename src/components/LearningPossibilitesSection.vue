@@ -90,6 +90,7 @@
             height: 100%;
 
             h2{
+                font-family: 'Merriweather', 'Serif';
                 font-size: 3rem;
                 margin-bottom: 2rem;
             }

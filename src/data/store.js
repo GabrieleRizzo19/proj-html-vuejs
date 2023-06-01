@@ -160,6 +160,62 @@ export const store = reactive({
             ],
             img: new URL('../assets/img/7-learning-possibilities-section/h12-tabs-icon-6.png', import.meta.url).href
         }
+    ],
+    coursesCardData: [
+        {
+            img: new URL('../assets/img/9-courses-image/course-1-f-img.jpg', import.meta.url).href,
+            title: "Android Developer",
+            price: "FREE",
+            teacher: "David Sanders",
+            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            numberTag: "1",
+            categoryTag: "PROGRAMMING"
+        },
+        {
+            img: new URL('../assets/img/9-courses-image/course-2-f-img.jpg', import.meta.url).href,
+            title: "Web Designing",
+            price: "FREE",
+            teacher: "Jennifer Powell",
+            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            numberTag: "1",
+            categoryTag: "PROGRAMMING"
+        },
+        {
+            img: new URL('../assets/img/9-courses-image/course-3-f-img.jpg', import.meta.url).href,
+            title: "Financial Modelling",
+            price: "$20",
+            teacher: "Edward Bowman",
+            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            numberTag: "1",
+            categoryTag: "BUSINESS"
+        },
+        {
+            img: new URL('../assets/img/9-courses-image/course-4-f-img.jpg', import.meta.url).href,
+            title: "Android Developer 2",
+            price: "FREE",
+            teacher: "David Sanders",
+            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            numberTag: "1",
+            categoryTag: "PROGRAMMING2"
+        },
+        {
+            img: new URL('../assets/img/9-courses-image/course-5-f-img.jpg', import.meta.url).href,
+            title: "Web Designing 2",
+            price: "FREE",
+            teacher: "Jennifer Powell",
+            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            numberTag: "1",
+            categoryTag: "PROGRAMMING2"
+        },
+        {
+            img: new URL('../assets/img/9-courses-image/course-6-f-img.jpg', import.meta.url).href,
+            title: "Financial Modelling 2",
+            price: "FREE",
+            teacher: "David Sanders",
+            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            numberTag: "1",
+            categoryTag: "BUSINESS2"
+        },
     ]
 
 })

@@ -14,6 +14,8 @@ import { faEarthEurope } from '@fortawesome/free-solid-svg-icons'
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons'
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import { faCircleNotch } from '@fortawesome/free-solid-svg-icons'
+import { faUser } from '@fortawesome/free-solid-svg-icons'
+import { faTag } from '@fortawesome/free-solid-svg-icons'
 
 // ADD ICONS TO LIBRARY
 library.add(faMagnifyingGlass)
@@ -23,7 +25,8 @@ library.add(faEarthEurope)
 library.add(faChevronUp)
 library.add(faCartShopping)
 library.add(faCircleNotch)
-
+library.add(faUser)
+library.add(faTag)
 
 
 // SWIPER
