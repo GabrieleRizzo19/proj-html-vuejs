@@ -93,10 +93,12 @@
                     width: 50%;
 
                     h3{
-                        font-size: 3rem;
+                        font-size: 3.5rem;
+                        margin-bottom: 0.5rem;
                     }
 
                     span{
+                        font-size: 1.2rem;
                         font-weight: bold;
                     }
                 }
