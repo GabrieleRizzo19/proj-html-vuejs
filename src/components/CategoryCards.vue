@@ -19,7 +19,7 @@
 
         <div class="card" v-for="card in store.cateogryCardsContent">
             <div class="card-icon">
-                <font-awesome-icon :icon="card.icon" />
+                <img :src="card.icon" alt="">
             </div>
             <div class="card-title">
                 {{ card.title}}

@@ -3,7 +3,7 @@
     import { store } from '../data/store';
 
     import { Swiper, SwiperSlide } from 'swiper/vue';
-    import { Pagination } from 'swiper';
+    import { Autoplay, Pagination } from 'swiper';
 
     export default{
         name: "TestimonialSlider",
@@ -13,7 +13,7 @@
         },
         setup() {
             return {
-                modules: [Pagination],
+                modules: [Autoplay, Pagination],
             };
         },
         data(){
@@ -33,6 +33,10 @@
             :spaceBetween="30"
             :pagination="{
                 clickable: true,
+            }"
+            :autoplay="{
+                delay: 5000,
+                disableOnInteraction: true,
             }"
             :modules="modules"
             class="mySwiper"
@@ -65,7 +69,7 @@
     .testimonial-slider{
         
         height: 650px;
-        background-image: url('../assets/img/5-testimonial-slider/h5-parallax-img-1.png');
+        background-image: url('../assets/img/6-testimonial-slider/h5-parallax-img-1.png');
         background-size: cover;
         text-align: center;
         

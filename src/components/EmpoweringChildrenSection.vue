@@ -11,7 +11,7 @@
     <div class="empowering-children-section container">
 
         <div class="image-section">
-            <img src="../assets/img/4-empowering-children-section/h5-img-2.jpg" alt="">
+            <img src="../assets/img/5-empowering-children-section/h5-img-2.jpg" alt="">
         </div>
 
         <div class="text-section">

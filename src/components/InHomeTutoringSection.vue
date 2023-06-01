@@ -20,7 +20,7 @@
 
         <div class="image-section">
 
-            <img src="../assets/img/3-in-home-tutoring-section/h5-img-1.jpg" alt="in home tutoring image">
+            <img src="../assets/img/4-in-home-tutoring-section/h5-img-1.jpg" alt="in home tutoring image">
 
         </div>
 

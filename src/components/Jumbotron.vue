@@ -6,7 +6,7 @@
 
     // Import Swiper Vue.js components
     import { Swiper, SwiperSlide } from 'swiper/vue';
-    import { Pagination } from 'swiper';
+    import { Autoplay, Pagination } from 'swiper';
 
     export default {
         name: "Jumbotron",
@@ -16,7 +16,7 @@
         },
         setup() {
             return {
-                modules: [Pagination],
+                modules: [Autoplay, Pagination],
             };
         },
         data(){
@@ -34,25 +34,28 @@
     <div class="jumbotron">
         <div class="jumbotron-wrapper pos-relative">
 
-            <div class="background-image pos-absolute">
-        </div>
+            <div class="background-image pos-absolute"></div>
 
-        <swiper
-            :spaceBetween="30"
-            :pagination="{
-                clickable: true,
-            }"
-            :modules="modules"
-            class="mySwiper"
-        >
-            <swiper-slide v-for="slide in store.jumbotronSlides">
-                <div class="jumbotron-content container">
-                    <h1>{{ slide.title }}</h1>
-                    <p>{{ slide.text }}</p>
-                    <button>{{ slide.buttonText}}</button>
-                </div>
-            </swiper-slide>
-        </swiper>
+            <swiper
+                :spaceBetween="30"
+                :pagination="{
+                    clickable: true,
+                }"
+                :autoplay="{
+                    delay: 3000,
+                    disableOnInteraction: true,
+                }"
+                :modules="modules"
+                class="mySwiper"
+            >
+                <swiper-slide v-for="slide in store.jumbotronSlides">
+                    <div class="jumbotron-content container">
+                        <h1>{{ slide.title }}</h1>
+                        <p>{{ slide.text }}</p>
+                        <button>{{ slide.buttonText}}</button>
+                    </div>
+                </swiper-slide>
+            </swiper>
 
         </div>
         
