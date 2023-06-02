@@ -32,7 +32,7 @@
 
     <swiper
         :slidesPerView="4"
-        :spaceBetween="50"
+        :spaceBetween="40"
         :autoplay="{
             delay:1500
         }"

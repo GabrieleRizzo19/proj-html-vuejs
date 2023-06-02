@@ -1,23 +1,32 @@
 <script>
 
+    import FooterTop from './FooterTop.vue';
+
     export default{
-        name: "PageFooter"
+        name: "PageFooter",
+        components:{
+            FooterTop
+        }
     }
 
 </script>
 
 <template>
 
-    <div>
-        <h1>FOOTER</h1>
-    </div>
+    <footer>
+        <div class="footer-wrapper">
+
+            <FooterTop />
+
+        </div>
+    </footer>
 
 </template>
 
 <style lang="scss" scoped>
 
-    div{
-        background-color: yellow;
-        color: red;
+    .footer-wrapper{
+        background-color: #222222;
+        color: white;
     }
 </style>

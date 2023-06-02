@@ -16,6 +16,8 @@ import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import { faCircleNotch } from '@fortawesome/free-solid-svg-icons'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 import { faTag } from '@fortawesome/free-solid-svg-icons'
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faClock } from '@fortawesome/free-regular-svg-icons'
 
 // ADD ICONS TO LIBRARY
 library.add(faMagnifyingGlass)
@@ -27,6 +29,8 @@ library.add(faCartShopping)
 library.add(faCircleNotch)
 library.add(faUser)
 library.add(faTag)
+library.add(faPhone)
+library.add(faClock)
 
 
 // SWIPER

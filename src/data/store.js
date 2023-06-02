@@ -265,6 +265,48 @@ export const store = reactive({
         new URL('../assets/img/11-university-carousel-image/h5-client-3.png', import.meta.url).href,
         new URL('../assets/img/11-university-carousel-image/h5-client-4.png', import.meta.url).href,
         new URL('../assets/img/11-university-carousel-image/h5-client-5.png', import.meta.url).href
-    ]
+    ],
+    footerTopPhoneNumber: "1-677-124-44227",
+    footerPopularCourses:[
+        {
+            name: "Business English",
+            teacher: "Preston Marshall",
+            href: "#"
+        },
+        {
+            name: "Social Computing",
+            teacher: "David Sanders",
+            href: "#"
+        },
+        {
+            name: "Learn Spanish",
+            teacher: "Jennie King",
+            href: "#"
+        }
+    ],
+    footerSupportLink: [
+        {
+            name: "User dashboard",
+            href: "#"
+        },
+        {
+            name: "Contact Us",
+            href: "#"
+        },
+        {
+            name: "FAQ",
+            href: "#"
+        },
+        {
+            name: "Course Offer",
+            href: "#"
+        },
+        {
+            name: "Events",
+            href: "#"
+        },
+    ],
+    footerBottomPhoneNumber: "+44 300 303 0266",
+
 
 })
