@@ -266,7 +266,11 @@ export const store = reactive({
         new URL('../assets/img/11-university-carousel-image/h5-client-4.png', import.meta.url).href,
         new URL('../assets/img/11-university-carousel-image/h5-client-5.png', import.meta.url).href
     ],
-    footerTopPhoneNumber: "1-677-124-44227",
+    footerTopPhoneNumber: {
+        toShow: "1-677-124-44227",
+        href: "tel:167712444227"
+    }
+    ,
     footerPopularCourses:[
         {
             name: "Business English",
@@ -306,7 +310,11 @@ export const store = reactive({
             href: "#"
         },
     ],
-    footerBottomPhoneNumber: "+44 300 303 0266",
+    footerBottomPhoneNumber: {
+        toShow: "+44 300 303 0266",
+        href: "tel:+443003030266"
+    }
+    
 
 
 })

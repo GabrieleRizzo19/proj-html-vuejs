@@ -18,6 +18,9 @@ import { faUser } from '@fortawesome/free-solid-svg-icons'
 import { faTag } from '@fortawesome/free-solid-svg-icons'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faClock } from '@fortawesome/free-regular-svg-icons'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
 
 // ADD ICONS TO LIBRARY
 library.add(faMagnifyingGlass)
@@ -31,6 +34,9 @@ library.add(faUser)
 library.add(faTag)
 library.add(faPhone)
 library.add(faClock)
+library.add(faTwitter)
+library.add(faInstagram)
+library.add(faFacebookF)
 
 
 // SWIPER

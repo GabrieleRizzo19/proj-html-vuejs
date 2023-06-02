@@ -16,8 +16,10 @@
 <template>
 
     <div class="footer-top container">
-        
-        <div class="column">
+
+        <div class="column-container">
+
+            <div class="column">
             <div class="title">
                 <img src="../assets/img/12-footer/footer-logo-1.png" alt="">
             </div>
@@ -30,9 +32,9 @@
                 </p>
 
                 <span class="d-block font-bold tel">
-                    <a href="tel:167712444227">
+                    <a :href="store.footerTopPhoneNumber.href">
                         <font-awesome-icon icon="fa-solid fa-phone" />
-                        &nbsp; 1-677-124-44227
+                        &nbsp; {{ store.footerTopPhoneNumber.toShow }}
                     </a>
                 </span>
                 
@@ -67,6 +69,10 @@
             </div>
         </div>
 
+        </div>
+        
+        <hr>
+
     </div>
 
 </template>
@@ -78,7 +84,7 @@
     @use '../styles/partials/_variables' as var;
 
 
-    .footer-top{
+    .column-container{
         
         @include mixins.flex(row, space-between, center);
         padding: 3rem 0;
@@ -143,6 +149,10 @@
                     width: 80%;
                 }
         }
+    }
+
+    hr{
+        border: 1px solid grey;
     }
 
 </style>

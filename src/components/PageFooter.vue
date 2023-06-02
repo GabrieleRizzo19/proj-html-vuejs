@@ -1,11 +1,13 @@
 <script>
 
     import FooterTop from './FooterTop.vue';
+    import FooterBottom from './FooterBottom.vue';
 
     export default{
         name: "PageFooter",
         components:{
-            FooterTop
+            FooterTop,
+            FooterBottom
         }
     }
 
@@ -17,6 +19,8 @@
         <div class="footer-wrapper">
 
             <FooterTop />
+
+            <FooterBottom />
 
         </div>
     </footer>
