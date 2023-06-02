@@ -8,6 +8,7 @@
     import LearningPossibilitesSection from './LearningPossibilitesSection.vue';
     import CoursesSection from './CoursesSection.vue';
     import PricingPlans from './PricingPlans.vue';
+    import UniversityCarousel from './UniversityCarousel.vue';
 
     export default{
         name: "PageMain",
@@ -19,7 +20,8 @@
             TestimonialSlider,
             LearningPossibilitesSection,
             CoursesSection,
-            PricingPlans
+            PricingPlans,
+            UniversityCarousel
         }
     }
 
@@ -45,6 +47,8 @@
             <CoursesSection />
 
             <PricingPlans />
+
+            <UniversityCarousel />
         </div>
     </main>
 

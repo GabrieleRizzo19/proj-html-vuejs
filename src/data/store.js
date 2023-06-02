@@ -258,6 +258,13 @@ export const store = reactive({
             businessEnglish: true
         },
 
+    ],
+    universityCarouselImg: [
+        new URL('../assets/img/11-university-carousel-image/h5-client-1.png', import.meta.url).href,
+        new URL('../assets/img/11-university-carousel-image/h5-client-2.png', import.meta.url).href,
+        new URL('../assets/img/11-university-carousel-image/h5-client-3.png', import.meta.url).href,
+        new URL('../assets/img/11-university-carousel-image/h5-client-4.png', import.meta.url).href,
+        new URL('../assets/img/11-university-carousel-image/h5-client-5.png', import.meta.url).href
     ]
 
 })
