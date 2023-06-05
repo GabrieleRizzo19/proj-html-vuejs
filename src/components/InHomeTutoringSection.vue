@@ -47,8 +47,8 @@
             }
 
             p{
-                font-size: 1.2rem;
-                line-height: 1.5rem;
+                font-size: 1.3rem;
+                line-height: 2rem;
                 color: grey;
                 margin-bottom: 1rem;
             }

@@ -71,7 +71,6 @@
 
         </div>
         
-        <hr>
 
     </div>
 
@@ -83,11 +82,14 @@
     @use '../styles/partials/_mixins' as mixins;
     @use '../styles/partials/_variables' as var;
 
-
+    .footer-top{
+        padding-top: 10rem;
+        padding-bottom: 5rem
+    }
     .column-container{
         
         @include mixins.flex(row, space-between, center);
-        padding: 3rem 0;
+        padding: 0;
 
         .column{
 
@@ -151,8 +153,6 @@
         }
     }
 
-    hr{
-        border: 1px solid grey;
-    }
+
 
 </style>

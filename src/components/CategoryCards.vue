@@ -46,7 +46,7 @@
             width: calc(100% / 6 - 2rem);
             background-color: var.$primary-color-light;
             @include mixins.flex(column, center, center);
-            border: 1px solid lightgrey;
+            border: 1px solid rgba(211, 211, 211, 0.233);
 
             .card-icon{
                 color: var.$primary-color;

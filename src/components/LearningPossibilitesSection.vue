@@ -104,7 +104,7 @@
 
             li{
                 list-style-type: none;
-                margin-bottom: 1rem;
+                margin-bottom: 2rem;
                 color: grey;
                 font-size: 1.2rem;
 

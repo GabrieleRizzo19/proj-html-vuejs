@@ -81,7 +81,7 @@
             width: 100%;
             background-image: url('../assets/img/2-jumbotron-slider-img/course-9-f-img.jpg');
             background-size: cover;
-            filter: brightness(50%);
+            filter: brightness(75%);
             top: 0;
             left: 0;
             z-index: -1;
@@ -89,6 +89,7 @@
 
         .mySwiper{
             height: 100%;
+
         }
         .jumbotron-content{
             height: 100%;
@@ -113,9 +114,13 @@
                 border: none;
                 color: white;
                 font-weight: 600;
+                transition: 0.2s;
 
                 &:hover{
                     cursor: pointer;
+                    background-color: white;
+                    color: var.$primary-color;
+                    
                 }
             }
         }

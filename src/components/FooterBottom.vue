@@ -28,10 +28,10 @@
 
             <span>FOLLOW US</span>
 
-
-            <font-awesome-icon icon="fa-brands fa-twitter" />
-            <font-awesome-icon icon="fa-brands fa-instagram" />
-            <font-awesome-icon icon="fa-brands fa-facebook-f" />
+            
+            <a href=""><font-awesome-icon icon="fa-brands fa-twitter" /></a>
+            <a href=""><font-awesome-icon icon="fa-brands fa-instagram" /></a>
+            <a href=""><font-awesome-icon icon="fa-brands fa-facebook-f" /></a>
         </div>
 
     </div>
@@ -44,12 +44,16 @@
     @use '../styles/partials/_variables' as var;
     .footer-bottom{
 
-        padding: 2rem 0 5rem 0;
+        padding: 3rem 0 5rem 0;
         @include mixins.flex(row,space-between);
 
         .right-side{
             @include mixins.flex(row,space-between);
             gap: 1.5rem;
+
+            a:hover{
+                color: var.$primary-color;;
+            }
         }
     }
 

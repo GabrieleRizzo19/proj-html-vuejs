@@ -115,6 +115,10 @@
 
                 border: 1px solid lightgrey;
                 background-color: white;
+
+                &:hover{
+                    cursor: pointer;
+                }
                 .card-image{
                     width: 100%;
                     margin-bottom: 1rem;
@@ -134,7 +138,7 @@
                         position: relative;
 
                         .badge{
-                            padding: 0.25rem 1rem;
+                            padding: 0.25rem 0.75rem;
                             border-radius: 110px;
                             color: white;
                             font-family: Arial, Helvetica, sans-serif;

@@ -71,6 +71,7 @@
         background-image: url('../assets/img/6-testimonial-slider/h5-parallax-img-1.png');
         background-size: cover;
         text-align: center;
+        padding: 4rem 0;
         
         .mySwiper{
             height: 100%;
@@ -91,6 +92,7 @@
 
             p{
                 font-size: 1.5rem;
+                line-height: 2rem;
                 width: 80%;
                 margin: 0 auto;
                 margin-bottom: 2rem;

@@ -20,6 +20,8 @@
 
             <FooterTop />
 
+            <hr class="container">
+
             <FooterBottom />
 
         </div>
@@ -32,5 +34,9 @@
     .footer-wrapper{
         background-color: #222222;
         color: white;
+
+        hr{
+            border: 1px solid grey;
+        }
     }
 </style>

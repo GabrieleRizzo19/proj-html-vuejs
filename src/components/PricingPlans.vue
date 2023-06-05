@@ -40,7 +40,7 @@
                     <td v-for="plan in store.tablePlanData">{{ plan.numberOfCourses }}</td>
                 </tr>
                 <tr>
-                    <td class="property-title">Times</td>
+                    <td class="property-title">Time</td>
                     <td v-for="plan in store.tablePlanData">{{ plan.time }}</td>
                 </tr>
                 <tr>
@@ -148,10 +148,11 @@
                 .property-title{
                     font-weight: bold;
                     font-family: 'Merriweather','Serif';
+                    text-align: start;
                 }
 
                 td{
-                    padding: 1rem;
+                    padding: 1rem 2.5rem;
                     color: grey;
                     text-align: center;
                     font-size: 1.2rem;
