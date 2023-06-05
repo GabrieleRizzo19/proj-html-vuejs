@@ -1,7 +1,16 @@
 <script>
 
     export default{
-        name: "ToTopButton"
+        name: "ToTopButton",
+        methods: {
+            scrollToTop(){
+                window.scrollTo({
+                    top: 0,
+                    left: 0,
+                    behavior: 'smooth'
+                });
+            }
+        }
     }
 
 </script>
@@ -12,7 +21,7 @@
 
 <!-- RENDERLO ANIMATO -->
 
-    <a href="#">
+    <a @click="scrollToTop">
         <span class="top-arrow"><font-awesome-icon icon="fa-solid fa-chevron-up" /></span> <br> 
         TOP
     </a>
