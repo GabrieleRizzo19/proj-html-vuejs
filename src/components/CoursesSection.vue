@@ -106,7 +106,7 @@
         }
 
         .cards-section{
-            height: 500px;
+            height: 550px;
             .mySwiper{
                 height: 100%;
             }
